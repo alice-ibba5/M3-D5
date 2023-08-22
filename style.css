@@ -1,0 +1,13 @@
+#avatar {
+    width: 30px;
+    border-radius: 50%;
+}
+
+#bell {
+    width: 30px;
+}
+
+li.nav-item {
+    list-style: none;
+}
+
