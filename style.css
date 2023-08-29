@@ -1,10 +1,10 @@
-#avatar {
-    width: 30px;
+.avatar {
+    width: 40px;
     border-radius: 50%;
 }
 
 #bell {
-    width: 30px;
+    width: 40px;
 }
 
 li.nav-item {
@@ -14,3 +14,80 @@ li.nav-item {
 .jumbotron {
     background-color: #7532F9;
 }
+
+#carousel {
+    background-color: rgb(239, 239, 239);
+    overflow: visible;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-img-top {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.bi-bar-chart-fill {
+    color: blue;
+}
+
+.bi-star {
+    color: gold;
+}
+
+.bi-star-half {
+    color: gold;
+}
+
+.bi-star-fill {
+    color: gold;
+}
+
+.gold {
+    color: gold;
+}
+
+.avatar2 {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.chart {
+    width: 17px;
+    margin-bottom: 2px;
+}
+
+body {
+    background-color: rgb(239, 239, 239);
+}
+
+.card:hover {
+    transform: scale(110%);
+    box-shadow: 5px 5px 15px 5px #A1A1A1;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.bi-bookmark-fill {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+    transition: opacity 0.2s ease;
+}
+
+.bookmarks {
+   position: relative;
+}
+
+span:last-child:hover .bi-bookmark-fill {
+    transition: opacity 0.5s ease;
+    opacity: 1;
+  }
