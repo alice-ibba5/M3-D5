@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "M3-D5",
+			"path": "."
+		},
+		{
+			"name": "assets",
+			"path": "../../../Desktop/Web Developer Course/U3/D5/assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "M3-D5"
+	}
+}
